@@ -72,11 +72,10 @@ export default {
       { icon: "dashboard", text: "Dashboard", route: "/" },
       { icon: "folder", text: "My Project", route: "/projects" },
       { icon: "person", text: "Team", route: "/team" },
-    ],
+    ]
   }),
-  
   components: {
-    Popup,
+    Popup
   },
 };
 </script>
