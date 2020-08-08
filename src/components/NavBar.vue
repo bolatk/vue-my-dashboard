@@ -36,7 +36,7 @@
           <v-avatar size="100">
             <v-img src="/img1.png"></v-img>
           </v-avatar>
-          <p class="white-text subheading mt-1 text-center">Username</p>
+          <p class="white--text subheading mt-1 text-center">Username</p>
         </v-flex>
       </v-layout>
       <v-list flat>
