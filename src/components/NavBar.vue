@@ -3,8 +3,7 @@
     <v-app-bar color="red" dark app>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <v-toolbar-title class="text-uppercase">
-        <span class="font-weight-light">Akzere</span>
-        <span>Big Byte</span>
+        <span>Ak Byte</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-menu offset-y>
@@ -32,6 +31,14 @@
       </v-btn>
     </v-app-bar>
     <v-navigation-drawer v-model="drawer" dark app class="red darken-4">
+      <v-layout column align-center>
+        <v-flex class="mt-5">
+          <v-avatar size="100">
+            <v-img src="/img1.png"></v-img>
+          </v-avatar>
+          <p class="white-text subheading mt-1 text-center">Username</p>
+        </v-flex>
+      </v-layout>
       <v-list flat>
         <v-list-item
           v-for="link in links"
