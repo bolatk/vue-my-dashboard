@@ -38,6 +38,9 @@
           </v-avatar>
           <p class="white--text subheading mt-1 text-center">Username</p>
         </v-flex>
+        <v-flex class="mt-4 mb-4">
+          <Popup />
+        </v-flex>
       </v-layout>
       <v-list flat>
         <v-list-item
@@ -60,6 +63,8 @@
 </template>
 
 <script>
+import Popup from "./Popup";
+
 export default {
   data: () => ({
     drawer: true,
@@ -69,6 +74,10 @@ export default {
       { icon: "person", text: "Team", route: "/team" },
     ],
   }),
+  
+  components: {
+    Popup,
+  },
 };
 </script>
 
